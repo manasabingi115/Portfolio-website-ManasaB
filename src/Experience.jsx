@@ -1,7 +1,7 @@
 function Experience() {
   const expData = [
     {
-      compLogo: "./src/assets/company-logo.jpg",
+      compLogo: "%PUBLIC_URL%/assets/company-logo.jpg",
       compName: "iTalent Digital",
       startEndDate: "March 2022 - Present",
       compLocation: "Hyderabad",
