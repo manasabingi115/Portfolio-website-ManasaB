@@ -2,8 +2,8 @@ function Header() {
   const navData = [
     { item: "Home", id: "#home" },
     { item: "About", id: "#about" },
-    { item: "Work", id: "#work" },
-    { item: "Skills", id: "#skills" },
+    { item: "Work", id: "#work-skills" },
+    { item: "Skills", id: "#work-skills" },
     { item: "Projects", id: "#projects" },
     { item: "Contact", id: "#contact" },
   ];

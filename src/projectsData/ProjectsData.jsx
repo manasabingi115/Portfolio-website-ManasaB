@@ -17,6 +17,7 @@ const projectsData = [
     technologiesUsed: ["ReactJs", "HTML", "CSS", "EmailJs"],
     liveAt: "https://hospital-run.vercel.app/",
     githubRepo: "https://github.com/manasabingi115/Hospital-Run",
+    filterBy: ["latest", "popular"],
   },
   {
     image: hospitalRunimg,
@@ -33,6 +34,7 @@ const projectsData = [
     ],
     liveAt: "https://hospital-run.vercel.app/",
     githubRepo: "https://github.com/manasabingi115/Hospital-Run",
+    filterBy: ["latest", "popular"],
   },
   {
     image: shoppingimg,
@@ -42,6 +44,7 @@ const projectsData = [
     technologiesUsed: ["ReactJs", "HTML", "CSS", "Api"],
     liveAt: "https://03s3u.csb.app/",
     githubRepo: "https://github.com/manasabingi115/React-Shopping-Cart",
+    filterBy: ["popular"],
   },
   {
     image: warehouseimg,
@@ -51,6 +54,7 @@ const projectsData = [
     technologiesUsed: ["ReactJs", "Redux", "HTML", "CSS", "Api"],
     liveAt: "https://06gfhm.csb.app/",
     githubRepo: "https://github.com/manasabingi115/WoreHouses-Redux-project",
+    filterBy: [],
   },
   {
     image: fbimg,
@@ -60,15 +64,17 @@ const projectsData = [
     technologiesUsed: ["ReactJs", "HTML", "CSS", "Giphy Api"],
     liveAt: "https://facebook-post-model.vercel.app/",
     githubRepo: "https://github.com/manasabingi115/Facebook-Post-model-",
+    filterBy: [],
   },
   {
     image: recipesimg,
     projectName: "Food Recipe App",
     description:
-      "This is a Food Recipe App. In this we can search for different types of food recipes which we want.",
+      "In a food recipe app, we will retrieve the data of recipes based on our search queries.",
     technologiesUsed: ["ReactJs", "HTML", "CSS", "Api"],
     liveAt: "https://yvltb.csb.app/",
     githubRepo: "https://github.com/manasabingi115/Food-Recipe-App",
+    filterBy: [],
   },
   {
     image: todoimg,
@@ -78,6 +84,7 @@ const projectsData = [
     technologiesUsed: ["JavaScript", "HTML", "CSS", "Api"],
     liveAt: "https://web-platform-fhwhid.stackblitz.io",
     githubRepo: "https://github.com/manasabingi115/Todo-REST-application",
+    filterBy: [],
   },
   {
     image: currencyimg,
@@ -87,6 +94,7 @@ const projectsData = [
     technologiesUsed: ["JavaScript", "HTML", "CSS"],
     liveAt: "https://lt1b3.csb.app/",
     githubRepo: "https://github.com/manasabingi115/currency-converter",
+    filterBy: [],
   },
   {
     image: dictionaryimg,
@@ -96,6 +104,7 @@ const projectsData = [
     technologiesUsed: ["JavaScript", "HTML", "CSS"],
     liveAt: "https://5ezg5.csb.app/",
     githubRepo: "https://github.com/manasabingi115/dictionary-app",
+    filterBy: [],
   },
   {
     image: clockimg,
@@ -104,6 +113,7 @@ const projectsData = [
     technologiesUsed: ["HTML", "CSS"],
     liveAt: "https://1gs6i.csb.app/",
     githubRepo: "https://github.com/manasabingi115/Clock",
+    filterBy: [],
   },
 ];
 

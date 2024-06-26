@@ -5,7 +5,7 @@ function Experience() {
       compName: "iTalent Digital",
       startEndDate: "March 2022 - Present",
       compLocation: "Hyderabad",
-      description: "Working as a Software Developer",
+      description: "Working as a Software Engineer",
     },
   ];
   return (

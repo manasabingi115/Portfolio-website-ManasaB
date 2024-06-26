@@ -5,7 +5,7 @@ import Skills from "./Skills";
 function ExperienceSkills() {
   const [tabValue, setTabValue] = React.useState("experience");
   return (
-    <div className="tabs_inner">
+    <div className="tabs_inner" id="work-skills">
       <ul className="nav nav-tabs" id="myTab" role="tablist">
         <li className="nav-item" onClick={() => setTabValue("experience")}>
           <a
