@@ -4,7 +4,7 @@ html {
 }
 body {
   margin: 0px;
-  background: url(./assets/body-bg.png.webp) no-repeat center;
+  background: url(/assets/body-bg.png.webp) no-repeat center;
   line-height: 26px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
@@ -297,7 +297,7 @@ h2 {
 /* Projects: END */
 /* Contact details : START */
 .contact_container {
-  background: url(./assets/contact-bg.png) no-repeat center;
+  background: url(/assets/contact-bg.png) no-repeat center;
   background-size: cover;
   padding: 50px 0px;
   text-align: center;
