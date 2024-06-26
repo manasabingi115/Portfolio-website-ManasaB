@@ -367,6 +367,7 @@ h2 {
   margin-top: 15px;
   width: 50%;
   margin-bottom: 10px;
+  padding: 0px 100px;
 }
 .contact_input_data {
   margin: 10px 0px;
@@ -383,5 +384,25 @@ h2 {
   font-size: 12px;
   padding-top: 10px;
   height: 20px;
+}
+.s_media_links {
+  list-style: none;
+  padding: 0px;
+}
+.s_media_link {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.s_m_icon {
+  margin: 10px 10px 10px 0px;
+  size: 30px;
+}
+.contact_content {
+  width: 100%;
+  display: flex;
+}
+.social_media_links_container {
+  text-align: left;
 }
 /* Contact details : END */
