@@ -12,7 +12,7 @@ function Header() {
     <div className="header_container">
       <div className="header">
         <div className="meetme">
-          <h1 name="test">MEETME</h1>
+          <h1 name="test">MANASA BINGI</h1>
         </div>
         <div className="nav-items">
           <ul className="nav navbar-nav menu_nav">

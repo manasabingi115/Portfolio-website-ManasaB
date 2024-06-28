@@ -23,7 +23,7 @@ const projectsData = [
     image: hospitalRunimg,
     projectName: "Hospital Run",
     description:
-      "Hospital Run is an open-source electronic medical record (EMR) system designed to simplify patient management and improve healthcare delivery. It's built with modern web technologies, providing a user-friendly interface for healthcare professionals.",
+      "This is an open-source electronic medical record (EMR) system designed to simplify patient management and improve healthcare delivery. It's built with modern web technologies, providing a user-friendly interface for healthcare professionals.",
     technologiesUsed: [
       "ReactJs",
       "HTML",
@@ -38,9 +38,9 @@ const projectsData = [
   },
   {
     image: shoppingimg,
-    projectName: "React Shopping Cart",
+    projectName: "Food Delivery App",
     description:
-      "This is a Food Cart App. In this we can add food items into the cart. And in this, food items are separated according to their type like vegetables, fruits and nuts.",
+      "This App allows users to add items to a cart, with items categorized by type such as vegetables, fruits, and nuts.",
     technologiesUsed: ["ReactJs", "HTML", "CSS", "Api"],
     liveAt: "https://03s3u.csb.app/",
     githubRepo: "https://github.com/manasabingi115/React-Shopping-Cart",
@@ -48,9 +48,9 @@ const projectsData = [
   },
   {
     image: warehouseimg,
-    projectName: "WareHouses (Redux) Project",
+    projectName: "Warehouse Management App(Redux)",
     description:
-      "This is a project using Redux. We can search WareHouses with the name of Warehouse. Added filter functionality for different categories (cities, clusters and space availability). We can edit WareHouse details by clicking on the warehouse name.",
+      "This project uses Redux to manage state. It allows users to search for warehouses by name and filter them by cities, clusters, and space availability. Users can also edit warehouse details by clicking on the warehouse name.",
     technologiesUsed: ["ReactJs", "Redux", "HTML", "CSS", "Api"],
     liveAt: "https://06gfhm.csb.app/",
     githubRepo: "https://github.com/manasabingi115/WoreHouses-Redux-project",
@@ -60,7 +60,7 @@ const projectsData = [
     image: fbimg,
     projectName: "Facebook Post Model",
     description:
-      "In this App, we can post text and GIFs. I have used Giphy API for fetching the Gifs, and also made my App responsive. Added color functionality for background. I used localStorage for persisting the data even after refreshing the page.",
+      "This app allows users to post text and GIFs. It uses the Giphy API to fetch GIFs and includes functionality to change the background color. The app is responsive and uses localStorage to persist data even after a page refresh.",
     technologiesUsed: ["ReactJs", "HTML", "CSS", "Giphy Api"],
     liveAt: "https://facebook-post-model.vercel.app/",
     githubRepo: "https://github.com/manasabingi115/Facebook-Post-model-",
@@ -80,7 +80,7 @@ const projectsData = [
     image: todoimg,
     projectName: "Todo application based on REST API",
     description:
-      "This Todo list app is generally used to maintain our day-to-day tasks. We can add/delete/update tasks. It used a third party REST API as a backend service. It is built with HTML,CSS and JavaScript. It uses REST API to fetch the data.",
+      "This Todo List app helps manage day-to-day tasks, allowing users to add, delete, and update tasks. It is built with HTML, CSS, and JavaScript and uses a third-party REST API as a backend service to fetch data. The app ensures efficient task management and seamless data handling through the REST API integration.",
     technologiesUsed: ["JavaScript", "HTML", "CSS", "Api"],
     liveAt: "https://web-platform-fhwhid.stackblitz.io",
     githubRepo: "https://github.com/manasabingi115/Todo-REST-application",
@@ -90,7 +90,7 @@ const projectsData = [
     image: currencyimg,
     projectName: "Currency Converter",
     description:
-      "This is a Currency-converter app used to change the currency from one country to another.",
+      "This Currency Converter app allows users to convert currency from one country to another.",
     technologiesUsed: ["JavaScript", "HTML", "CSS"],
     liveAt: "https://lt1b3.csb.app/",
     githubRepo: "https://github.com/manasabingi115/currency-converter",
@@ -100,7 +100,7 @@ const projectsData = [
     image: dictionaryimg,
     projectName: "Dictionary App",
     description:
-      "This is a dictionary-app.In this we can find meanings of the word which we want. And also we can get pronunciation, one example sentence and origin of the word.",
+      "This Dictionary app allows users to find word meanings, pronunciation, example sentences, and the origin of words.",
     technologiesUsed: ["JavaScript", "HTML", "CSS"],
     liveAt: "https://5ezg5.csb.app/",
     githubRepo: "https://github.com/manasabingi115/dictionary-app",
@@ -109,7 +109,7 @@ const projectsData = [
   {
     image: clockimg,
     projectName: "Analog Clock",
-    description: "This is a clock designed with HTML and CSS.",
+    description: "This is a clock designed using HTML and CSS.",
     technologiesUsed: ["HTML", "CSS"],
     liveAt: "https://1gs6i.csb.app/",
     githubRepo: "https://github.com/manasabingi115/Clock",
