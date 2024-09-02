@@ -5,7 +5,7 @@ function HeroBanner() {
       <h1>I AM MANASA BINGI</h1>
       <h5>FRONT-END DEVELOPER</h5>
       <div className="hero_banner_btns">
-        <a className="primary_btn" href="#contact">
+        <a className="primary_btn" href="#social_media_links_container">
           <span>HIRE ME</span>
         </a>
         <a

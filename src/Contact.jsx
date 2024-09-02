@@ -1,30 +1,3 @@
-// function Contact() {
-//   return (
-//     <div className="contact_container">
-//       <div className="subscription_box text-center">
-//         <h2 className="text-uppercase text-white">contact me</h2>
-//         <p className="text-white">
-//           Bearing Void gathering light light his eavening unto dont afraid.
-//         </p>
-//         <div className="subcribe-form">
-//           <form method="get" className="subscription relative">
-//             <input
-//               name="EMAIL"
-//               placeholder="Email address"
-//               required
-//               type="email"
-//             />
-//             <button className="primary_btn contact_btn">Get Started</button>
-//             <div className="info">Submitting...</div>
-//           </form>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Contact;
-
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { MdMail } from "react-icons/md";
@@ -148,7 +121,10 @@ const ContactForm = () => {
             </p>
           </div>
         </form>
-        <div className="social_media_links_container">
+        <div
+          className="social_media_links_container"
+          id="social_media_links_container"
+        >
           <h3 className="s_title">Contact Info</h3>
           <ul className="s_media_links">
             <li className="s_location s_media_link">
@@ -156,12 +132,9 @@ const ContactForm = () => {
               <span>Hyderabad</span>
             </li>
             <li className="s_m_list">
-              <a
-                href="mailto:manasabingi115@gmail.com"
-                className="s_media_link"
-              >
+              <a href="mailto:bingim115@gmail.com" className="s_media_link">
                 <MdMail className="s_m_icon" size={20} />
-                <span>manasabingi115@gmail.com</span>
+                <span>bingim115@gmail.com</span>
               </a>
             </li>
             <li className="s_m_list">

@@ -1,9 +1,11 @@
 import React from "react";
 import Experience from "./Experience";
 import Skills from "./Skills";
+import TabValueContext from "./TabValueContext";
 
 function ExperienceSkills() {
-  const [tabValue, setTabValue] = React.useState("experience");
+  const { tabValue, setTabValue } = React.useContext(TabValueContext);
+
   return (
     <div className="tabs_inner" id="work-skills">
       <ul className="nav nav-tabs" id="myTab" role="tablist">

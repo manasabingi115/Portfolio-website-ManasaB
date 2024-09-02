@@ -21,7 +21,7 @@ const projectsData = [
   },
   {
     image: hospitalRunimg,
-    projectName: "Hospital Run",
+    projectName: "Hospital Run(Redux)",
     description:
       "This is an open-source electronic medical record (EMR) system designed to simplify patient management and improve healthcare delivery. It's built with modern web technologies, providing a user-friendly interface for healthcare professionals.",
     technologiesUsed: [

@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Header from "./Header";
 import HeroBanner from "./HeroBanner";
@@ -6,20 +7,27 @@ import ExperienceSkills from "./ExperienceSkills";
 import Projects from "./Projects";
 import ContactForm from "./Contact";
 import Footer from "./Footer";
+import TabValueContext from "./TabValueContext";
 
 function App() {
+  const [tabValue, setTabValue] = React.useState("experience");
+
   return (
-    <div>
-      <Header />
+    <>
+      <TabValueContext.Provider value={{ tabValue, setTabValue }}>
+        <Header />
+      </TabValueContext.Provider>
       <div className="container">
         <HeroBanner />
         <About />
-        <ExperienceSkills />
+        <TabValueContext.Provider value={{ tabValue, setTabValue }}>
+          <ExperienceSkills />
+        </TabValueContext.Provider>
         <Projects />
         <ContactForm />
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

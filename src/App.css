@@ -11,6 +11,11 @@ body {
   font-weight: 400;
   transition: transform 0.5s ease-in-out;
 }
+
+ul {
+  list-style: none;
+}
+
 .container {
   margin-right: 75px;
   margin-left: 75px;
@@ -24,6 +29,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 80px;
   color: #ffffff;
 }
@@ -37,7 +43,7 @@ body {
 .navbar-nav {
   display: flex;
   align-items: center;
-  list-style: none;
+  /* list-style: none; */
 }
 .nav_item .nav-link {
   font: 600 14px "Rubik", sans-serif;
@@ -189,7 +195,7 @@ h2 {
 .nav {
   flex-wrap: wrap;
   padding-left: 0;
-  list-style: none;
+  /* list-style: none; */
 }
 .tabs-content {
   display: flex;
@@ -386,7 +392,7 @@ h2 {
   height: 20px;
 }
 .s_media_links {
-  list-style: none;
+  /* list-style: none; */
   padding: 0px;
 }
 .s_media_link {
@@ -423,3 +429,79 @@ h2 {
   border-radius: 100%;
 }
 /* Footer : END */
+/* Mobile Navigation : START */
+.mob-nav {
+  position: absolute;
+  right: 9%;
+  top: 82%;
+  background: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.menu-cross-icons {
+  font-size: xx-large;
+  margin-right: 25px;
+}
+/* Mobile Navigation : END */
+
+/* Responsiveness : START */
+
+@media only screen and (max-width: 600px) {
+  .profile_img {
+    display: none;
+  }
+  .contact_content,
+  .contact_input_data,
+  .exp_container {
+    flex-direction: column;
+  }
+  .subcribe-form {
+    width: 100%;
+    padding: 0px;
+  }
+  .contact_container input,
+  .contact_container textarea {
+    max-width: 70%;
+    min-width: 70%;
+  }
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .profile_description {
+    width: 100% !important;
+  }
+  .s_media_links {
+    padding-left: 65px;
+  }
+  .social_media_links_container {
+    text-align: center;
+  }
+  .header {
+    padding: 10px 30px;
+  }
+  .filters li {
+    margin-right: 15px;
+  }
+  #work {
+    width: 90%;
+  }
+  .nav_item {
+    margin-top: 10px;
+  }
+  .hero_banner h1 {
+    font-size: 60px;
+    line-height: 68px;
+  }
+  .skill_name {
+    background: white;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    border-radius: 5px;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+/* Responsiveness : END */
