@@ -8,11 +8,7 @@ function HeroBanner() {
         <a className="primary_btn" href="#social_media_links_container">
           <span>HIRE ME</span>
         </a>
-        <a
-          className="primary_btn tr-bg"
-          target="_blank"
-          href="https://drive.google.com/file/d/1efcozNplbK24DiPS6uFdqIuViRvGYSs7/view"
-        >
+        <a className="primary_btn tr-bg" href="#about">
           <span>GET CV</span>
         </a>
       </div>

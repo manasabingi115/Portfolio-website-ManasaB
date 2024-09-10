@@ -23,7 +23,7 @@ function About() {
         </p>
         <a
           className="primary_btn"
-          href="/assets/resume.pdf"
+          href="/assets/Resume-ManasaBingi-24.9 (1).pdf"
           download="ManasaBingi_Resume.pdf"
         >
           <span>DOWNLOAD CV</span>
