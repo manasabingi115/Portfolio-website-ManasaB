@@ -16,15 +16,18 @@ function About() {
           MY SELF
         </h2>
         <p>
-          Motivated Software Engineer with over 2 years of experience in the
-          software industry, seeking to leverage my technical skills in HTML,
-          CSS, React, JavaScript, and other technologies in a challenging role.
-          Committed to creating robust and user-friendly applications.
+          Motivated Front-End Developer with 3+ years of experience building
+          responsive web applications using React.js, Next.js, JavaScript
+          (ES6+), and TypeScript. Skilled in developing reusable components,
+          optimizing performance, and ensuring cross-browser accessibility.
+          Proficient in Agile teams with hands-on experience in Redux, GraphQL,
+          and testing frameworks like Jest. Strong focus on clean, maintainable
+          code and UI/UX best practices.
         </p>
         <a
           className="primary_btn"
-          href="/assets/Resume-ManasaBingi-24.9 (1).pdf"
-          download="ManasaBingi_Resume.pdf"
+          href="/assets/ManasaBingi_FrontEndDeveloper_Resume_25.7.pdf"
+          download="ManasaBingi_FrontEndDeveloper_Resume_25.7.pdf"
         >
           <span>DOWNLOAD CV</span>
         </a>
