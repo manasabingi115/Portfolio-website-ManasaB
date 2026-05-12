@@ -51,7 +51,7 @@ const projectsData = [
     ],
     liveAt: "https://hospital-run.vercel.app/",
     githubRepo: "https://github.com/manasabingi115/Hospital-Run",
-    filterBy: ["latest", "popular"],
+    filterBy: ["popular"],
   },
   {
     image: shoppingimg,
