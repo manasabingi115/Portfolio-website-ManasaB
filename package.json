@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -16,7 +17,6 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@fluentui/react-components": "^9.54.13",
-    "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1"
