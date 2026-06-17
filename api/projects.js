@@ -1,6 +1,6 @@
 /* eslint-env node */
 import { createClient } from "@supabase/supabase-js";
-import ws from 'ws';
+import ws from "ws";
 
 export default async function handler(req, res) {
   // Only allow GET (reading data)
@@ -12,8 +12,8 @@ export default async function handler(req, res) {
     process.env.SUPABASE_URL,
     process.env.SUPABASE_ANON_KEY,
     {
-      global: { WebSocket: ws }
-    }
+      global: { WebSocket: ws },
+    },
   );
 
   const { data, error } = await supabase
