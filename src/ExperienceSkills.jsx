@@ -16,7 +16,6 @@ function ExperienceSkills() {
             }
             id="home-tab"
             data-toggle="tab"
-            // href="#"
           >
             My Experience
           </a>
@@ -26,7 +25,6 @@ function ExperienceSkills() {
             className={tabValue == "skills" ? "nav-link active" : "nav-link"}
             id="profile-tab"
             data-toggle="tab"
-            // href="#"
           >
             My Skills
           </a>
