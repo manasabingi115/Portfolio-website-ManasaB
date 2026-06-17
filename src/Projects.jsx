@@ -1,8 +1,11 @@
 import React from "react";
-import projectsData from "./projectsData/ProjectsData";
+import { fetchProjects } from "./services/projectsApi";
 import ProjectDetailsPopUp from "./showMorePopup";
 
 function Projects() {
+  const [projectsData, setProjectsData] = React.useState([]);
+  const [loading, setLoading] = React.useState(true);
+  const [error, setError] = React.useState("");
   const [filteredValue, setFilteredValue] = React.useState("all");
   const [filteredData, setFilteredData] = React.useState(projectsData);
   const [popUp, setPopUp] = React.useState(false);
@@ -15,6 +18,19 @@ function Projects() {
     { name: "UPCOMING", id: "upcoming" },
   ];
 
+  React.useEffect(() => {
+    fetchProjects()
+      .then((data) => {
+        setProjectsData(data);
+        setFilteredData(data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setError("Could not load projects.");
+        setLoading(false);
+      });
+  }, []);
+
   function filterProjects(filter) {
     const filteredProjectData = projectsData.filter((project) =>
       project.filterBy.includes(filter)
@@ -23,6 +39,9 @@ function Projects() {
       ? setFilteredData(projectsData)
       : setFilteredData(filteredProjectData);
   }
+
+  if (loading) return <p>Loading projects...</p>;
+  if (error) return <p>{error}</p>;
 
   return (
     <>
@@ -71,14 +90,14 @@ function Projects() {
                       <a
                         href={data.githubRepo}
                         target="_blank"
-                        className="primary_btn card-btn"
+                        className="primary_btn card-btn" rel="noreferrer"
                       >
                         Git Repo
                       </a>
                       <a
                         href={data.liveAt}
                         target="_blank"
-                        className="primary_btn card-btn"
+                        className="primary_btn card-btn" rel="noreferrer"
                       >
                         Live
                       </a>

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { MdMail } from "react-icons/md";
 import { FaGlobeAsia, FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -159,7 +159,7 @@ const ContactForm = () => {
               <a
                 href="https://portfolio-website-manasa-b.vercel.app/"
                 target="_blank"
-                className="s_media_link"
+                className="s_media_link" rel="noreferrer"
               >
                 <FaGlobeAsia className="s_m_icon" size={20} />
                 <span>Portfolio website</span>
