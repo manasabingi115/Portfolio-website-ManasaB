@@ -46,7 +46,9 @@ ul {
   /* list-style: none; */
 }
 .nav_item .nav-link {
-  font: 600 14px "Rubik", sans-serif;
+  font:
+    600 14px "Rubik",
+    sans-serif;
   color: #ffffff;
 }
 /* hero banner: START */
@@ -79,14 +81,16 @@ ul {
   border-radius: 5px;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+  background-image:
+    linear-gradient(to right, #4458dc 0%, #854fee 100%),
     radial-gradient(circle at top left, #4458dc, #854fee);
   border: double 2px transparent;
   box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
   margin-right: 20px;
 }
 .primary_btn.tr-bg {
-  background-image: linear-gradient(#ffffff, #ffffff),
+  background-image:
+    linear-gradient(#ffffff, #ffffff),
     radial-gradient(circle at top left, #4458dc, #854fee);
   border: 2px solid transparent;
   color: #222222;
@@ -100,7 +104,8 @@ a {
   padding: 0 42px;
 }
 .primary_btn:hover {
-  background-image: linear-gradient(#ffffff, #ffffff),
+  background-image:
+    linear-gradient(#ffffff, #ffffff),
     radial-gradient(circle at top left, #4458dc, #854fee);
   border: 2px solid #854fee;
   color: #222222;
@@ -108,7 +113,8 @@ a {
   background-clip: border-box;
 }
 .primary_btn.tr-bg:hover {
-  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+  background-image:
+    linear-gradient(to right, #4458dc 0%, #854fee 100%),
     radial-gradient(circle at top left, #4458dc, #854fee);
   border: double 2px transparent;
   color: #ffffff;
@@ -161,7 +167,8 @@ h2 {
 /* Experience container: END  */
 /* Skills and Experience: START */
 .tabs_inner {
-  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+  background-image:
+    linear-gradient(to right, #4458dc 0%, #854fee 100%),
     radial-gradient(circle at top left, #4458dc, #854fee);
   padding: 100px 0px;
   margin-top: 135px;
@@ -250,10 +257,14 @@ h2 {
   border-radius: 6px;
   margin: 10px 6px;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .project_card:hover {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 1px 4px,
+    rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 .project_card:focus {
   outline: 3px solid black;
@@ -310,7 +321,8 @@ h2 {
 }
 #view_details {
   text-transform: none !important;
-  background-image: linear-gradient(#ffffff, #ffffff),
+  background-image:
+    linear-gradient(#ffffff, #ffffff),
     radial-gradient(circle at top left, #4458dc, #854fee);
   border: 2px solid transparent;
   color: #222222;
@@ -330,7 +342,8 @@ h2 {
   /* box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); */
 }
 #view_details:hover {
-  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+  background-image:
+    linear-gradient(to right, #4458dc 0%, #854fee 100%),
     radial-gradient(circle at top left, #4458dc, #854fee);
   border: double 2px transparent;
   color: #ffffff;

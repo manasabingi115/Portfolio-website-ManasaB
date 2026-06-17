@@ -11,7 +11,7 @@ function About() {
       </div>
       <div style={{ width: "50%" }} className="profile_description">
         <h2>
-          LET'S <br />
+          LET&apos;S <br />
           INTRODUCE ABOUT <br />
           MY SELF
         </h2>

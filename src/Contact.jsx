@@ -55,7 +55,7 @@ const ContactForm = () => {
         "service_uj41y8e",
         "template_b04t2jt",
         templateParams,
-        "p_TBIISTWrD3sDncw"
+        "p_TBIISTWrD3sDncw",
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
@@ -159,7 +159,8 @@ const ContactForm = () => {
               <a
                 href="https://portfolio-website-manasa-b.vercel.app/"
                 target="_blank"
-                className="s_media_link" rel="noreferrer"
+                className="s_media_link"
+                rel="noreferrer"
               >
                 <FaGlobeAsia className="s_m_icon" size={20} />
                 <span>Portfolio website</span>

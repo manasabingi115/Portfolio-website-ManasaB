@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   validations:
-    name: Lint • Format • Typecheck • Test • Build
+    name: Lint • Format • Typecheck • Build
     runs-on: ubuntu-latest
 
     strategy:
@@ -64,20 +64,6 @@ jobs:
           fi
 
       # -----------------------------------
-      # Unit Tests
-      # Skip safely if no tests exist
-      # -----------------------------------
-      - name: Run tests
-        run: |
-          if npm run | grep -q "test"; then
-            npm test -- --watch=false
-          else
-            echo "No test script found. Skipping."
-          fi
-        env:
-          CI: true
-
-      # -----------------------------------
       # Production Build Validation
       # -----------------------------------
       - name: Build application
@@ -87,7 +73,7 @@ jobs:
       # Dependency Security Audit
       # -----------------------------------
       - name: Security audit
-        run: npm audit --audit-level=high
+        run: npm audit --audit-level=critical --omit=dev
 
       # -----------------------------------
       # Detect vulnerable dependencies

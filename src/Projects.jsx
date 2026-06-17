@@ -33,7 +33,7 @@ function Projects() {
 
   function filterProjects(filter) {
     const filteredProjectData = projectsData.filter((project) =>
-      project.filterBy.includes(filter)
+      project.filterBy.includes(filter),
     );
     filter == "all"
       ? setFilteredData(projectsData)
@@ -90,14 +90,16 @@ function Projects() {
                       <a
                         href={data.githubRepo}
                         target="_blank"
-                        className="primary_btn card-btn" rel="noreferrer"
+                        className="primary_btn card-btn"
+                        rel="noreferrer"
                       >
                         Git Repo
                       </a>
                       <a
                         href={data.liveAt}
                         target="_blank"
-                        className="primary_btn card-btn" rel="noreferrer"
+                        className="primary_btn card-btn"
+                        rel="noreferrer"
                       >
                         Live
                       </a>
