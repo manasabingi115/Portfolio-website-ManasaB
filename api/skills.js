@@ -26,7 +26,7 @@ export default async function handler(req, res) {
 
   const skills = data.map((row) => ({
     s_name: row.s_name,
-    s_logo: row.s_logo ?? "",
+    s_logo: row.s_logo_url ?? "",
   }));
 
   return res.status(200).json(skills);

@@ -25,10 +25,10 @@ export default async function handler(req, res) {
   }
 
   const experience = data.map((row) => ({
-    compName: row.comp_name,
-    compLogo: row.comp_logo ?? "",
-    startEndDate: row.start_end_date ?? "",
-    compLocation: row.comp_location ?? "",
+    compName: row.company_name,
+    compLogo: row.company_logo_url ?? "",
+    startEndDate: row.duration ?? "",
+    compLocation: row.location ?? "",
     description: row.description ?? "",
   }));
 
