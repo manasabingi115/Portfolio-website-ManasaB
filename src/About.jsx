@@ -16,13 +16,18 @@ function About() {
           MY SELF
         </h2>
         <p>
-          Motivated Front-End Developer with 3+ years of experience building
-          responsive web applications using React.js, Next.js, JavaScript
-          (ES6+), and TypeScript. Skilled in developing reusable components,
-          optimizing performance, and ensuring cross-browser accessibility.
-          Proficient in Agile teams with hands-on experience in Redux, GraphQL,
-          and testing frameworks like Jest. Strong focus on clean, maintainable
-          code and UI/UX best practices.
+          Experienced Software Engineer with 4+ years of expertise specialising
+          in Front-End development, building scalable, responsive web
+          applications. Proficient in React.js, Next.js, JavaScript (ES6+), and
+          TypeScript, with hands-on experience in Micro Frontend architecture,
+          Redux, GraphQL, and React Query for complex state management. Skilled
+          in performance optimisation, cross-browser compatibility, and web
+          accessibility, with a strong command of modern tooling including
+          Webpack, Vite, and Azure DevOps. Experienced in Agile teams using
+          Jira, with a disciplined focus on clean, maintainable code, reusable
+          component design, and thorough testing using Jest and Vitest.
+          Comfortable working across the full UI stack from Figma designs to
+          production-ready, accessible interfaces.
         </p>
         <a
           className="primary_btn"
