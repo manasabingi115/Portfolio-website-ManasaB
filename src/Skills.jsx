@@ -1,184 +1,184 @@
 function Skills() {
   const skillsData = [
     {
-      s_logo: "/assets/html.png",
+      s_logo: "/assets/skills/html.png",
       s_name: "HTML5",
     },
     {
-      s_logo: "/assets/css.jpg",
+      s_logo: "/assets/skills/css.jpg",
       s_name: "CSS3",
     },
     {
-      s_logo: "/assets/SCSS.png",
+      s_logo: "/assets/skills/SCSS.png",
       s_name: "SCSS",
     },
     {
-      s_logo: "/assets/javascript.jpg",
+      s_logo: "/assets/skills/javascript.jpg",
       s_name: "JavaScript",
     },
     {
-      s_logo: "/assets/typescript.jpg",
+      s_logo: "/assets/skills/typescript.jpg",
       s_name: "TypeScript",
     },
     {
-      s_logo: "/assets/react.png",
+      s_logo: "/assets/skills/react.png",
       s_name: "React.js",
     },
     {
-      s_logo: "/assets/nextjs.jpeg",
+      s_logo: "/assets/skills/nextjs.jpeg",
       s_name: "Next.js",
     },
     {
-      s_logo: "/assets/redux.jpg",
+      s_logo: "/assets/skills/redux.jpg",
       s_name: "Redux",
     },
     {
-      s_logo: "/assets/graphql.png",
+      s_logo: "/assets/skills/graphql.png",
       s_name: "GraphQL",
     },
     {
-      s_logo: "/assets/Webpack.png",
+      s_logo: "/assets/skills/Webpack.png",
       s_name: "Webpack",
     },
     {
-      s_logo: "/assets/AzureDevops.png",
+      s_logo: "/assets/skills/AzureDevops.png",
       s_name: "Azure DevOps",
     },
     {
-      s_logo: "/assets/MicroFrontends.png",
+      s_logo: "/assets/skills/MicroFrontends.png",
       s_name: "Micro Frontends",
     },
     {
-      s_logo: "/assets/ContextApi.png",
+      s_logo: "/assets/skills/ContextApi.png",
       s_name: "Context API",
     },
     {
-      s_logo: "/assets/ReactQuery.png",
+      s_logo: "/assets/skills/ReactQuery.png",
       s_name: "React Query",
     },
     {
-      s_logo: "/assets/accessibility.jpg",
+      s_logo: "/assets/skills/accessibility.jpg",
       s_name: "Accessibility",
     },
     {
-      s_logo: "/assets/PerformanceOptimise.png",
+      s_logo: "/assets/skills/PerformanceOptimise.png",
       s_name: "Performance",
     },
     {
-      s_logo: "/assets/CrossBrowserCompatibility.png",
+      s_logo: "/assets/skills/CrossBrowserCompatibility.png",
       s_name: "Cross Browser Compatibility",
     },
     {
-      s_logo: "/assets/Agile.png",
+      s_logo: "/assets/skills/Agile.png",
       s_name: "Agile Methodologies",
     },
     {
-      s_logo: "/assets/JWT-WebToken.png",
+      s_logo: "/assets/skills/JWT-WebToken.png",
       s_name: "JWT Web Token",
     },
     {
-      s_logo: "/assets/browserDevTools.jpg",
+      s_logo: "/assets/skills/browserDevTools.jpg",
       s_name: "Browser Dev Tools",
     },
     {
-      s_logo: "/assets/lighthouse.png",
+      s_logo: "/assets/skills/lighthouse.png",
       s_name: "Lighthouse",
     },
     {
-      s_logo: "/assets/Figma.png",
+      s_logo: "/assets/skills/Figma.png",
       s_name: "Figma",
     },
     {
-      s_logo: "/assets/router.png",
+      s_logo: "/assets/skills/router.png",
       s_name: "Router",
     },
     {
-      s_logo: "/assets/jquery.png",
+      s_logo: "/assets/skills/jquery.png",
       s_name: "JQuery",
     },
     {
-      s_logo: "/assets/restapi.png",
+      s_logo: "/assets/skills/restapi.png",
       s_name: "REST Api",
     },
     {
-      s_logo: "/assets/bootstrap.jpg",
+      s_logo: "/assets/skills/bootstrap.jpg",
       s_name: "Bootstrap",
     },
     {
-      s_logo: "/assets/Axios.png",
+      s_logo: "/assets/skills/Axios.png",
       s_name: "Axios",
     },
     {
-      s_logo: "/assets/nodejs.png",
+      s_logo: "/assets/skills/nodejs.png",
       s_name: "Node.js",
     },
     {
-      s_logo: "/assets/SQL.png",
+      s_logo: "/assets/skills/SQL.png",
       s_name: "SQL",
     },
     {
-      s_logo: "/assets/babel.png",
+      s_logo: "/assets/skills/babel.png",
       s_name: "Babel",
     },
     {
-      s_logo: "/assets/Jira.png",
+      s_logo: "/assets/skills/Jira.png",
       s_name: "Jira",
     },
     {
-      s_logo: "/assets/freemarker.png",
+      s_logo: "/assets/skills/freemarker.png",
       s_name: "Freemarker",
     },
     {
-      s_logo: "/assets/git.png",
+      s_logo: "/assets/skills/git.png",
       s_name: "Git",
     },
     {
-      s_logo: "/assets/githubActions.png",
+      s_logo: "/assets/skills/githubActions.png",
       s_name: "GitHub Actions",
     },
     {
-      s_logo: "/assets/github.png",
+      s_logo: "/assets/skills/github.png",
       s_name: "Git Hub",
     },
     {
-      s_logo: "/assets/postman.png",
+      s_logo: "/assets/skills/postman.png",
       s_name: "Postman",
     },
     {
-      s_logo: "/assets/fluentUI.png",
+      s_logo: "/assets/skills/fluentUI.png",
       s_name: "fluent UI (8,9)",
     },
     {
-      s_logo: "/assets/jest.png",
+      s_logo: "/assets/skills/jest.png", //here....
       s_name: "Jest",
     },
     {
-      s_logo: "/assets/vitest.jpg",
+      s_logo: "/assets/skills/vitest.jpg",
       s_name: "Vitest",
     },
     {
-      s_logo: "/assets/emailjs.jpg",
+      s_logo: "/assets/skills/emailjs.jpg",
       s_name: "EmailJS",
     },
     {
-      s_logo: "/assets/vscode.jpg",
+      s_logo: "/assets/skills/vscode.jpg",
       s_name: "VSCode",
     },
 
     {
-      s_logo: "/assets/npm.png",
+      s_logo: "/assets/skills/npm.png",
       s_name: "NPM",
     },
     {
-      s_logo: "/assets/vite.jpg",
+      s_logo: "/assets/skills/vite.jpg",
       s_name: "Vite JS",
     },
     {
-      s_logo: "/assets/gitlab.png",
+      s_logo: "/assets/skills/gitlab.png",
       s_name: "Git Lab",
     },
     {
-      s_logo: "/assets/bitBucket.jpg",
+      s_logo: "/assets/skills/bitBucket.jpg",
       s_name: "Bit Bucket",
     },
   ];
